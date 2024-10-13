@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+    $basetexture "models\weapons\inferno\inferno"
+     $bumpmap "models\weapons\inferno\inferno_normal"
+
+    $surfaceprop combine_metal
+     $model 1
+
+    $envmap env_cubemap
+    $envmaptint "[0.3 0.3 0.3]"
+    $normalmapalphaenvmapmask 1
+    $envmapmask	"models\weapons\inferno\inferno_specular"
+
+    $phong 0
+    $detail "models\weapons\inferno\inferno_details"
+    $detailscale 1
+    $detailblendfactor 0.9
+    $detailblendmode 0.9
+
+    $ambientocclusion 1
+    $AmbientOcclTexture "models\weapons\inferno\inferno_ao"
+}
